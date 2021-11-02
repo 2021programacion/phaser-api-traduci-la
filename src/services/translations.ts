@@ -15,7 +15,7 @@ function adaptTranslations(data) {
 }
 
 export async function getTranslations(lang = language) {
-    console.log(lang);
+    localStorage.clear();
     language = lang;
     return await fetch(`https://traduci-la.herokuapp.com/rest/translation?project_id=${PROJECT_ID}&lang=${lang}`)
     .then(response => response.json())

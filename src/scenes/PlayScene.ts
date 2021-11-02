@@ -2,10 +2,6 @@ import Phaser from 'phaser'
 import { getPhrase } from '~/services/translations'
 
 export default class PlayScene extends Phaser.Scene{
-    private buttonSpanish
-    private buttonGerman
-    private buttonEnglish
-    private buttonPortuguese
 
     constructor () {
         super('play');
