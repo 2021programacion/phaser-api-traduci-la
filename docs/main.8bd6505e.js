@@ -26,4 +26,4 @@ module.exports={READY:"ready",TODO:"todo",FETCHING:"fetching",FETCHED:"fetched"}
 },{"phaser":"E66h","~/services/translations":"IUwB"}],"ZCfc":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0,require("regenerator-runtime/runtime");var e=u(require("phaser")),r=u(require("./scenes/HelloWorldScene")),t=u(require("./scenes/MenuScene")),a=u(require("./scenes/PlayScene"));function u(e){return e&&e.__esModule?e:{default:e}}localStorage.clear();var n={parent:"gameContainer",transparent:!0,type:e.default.AUTO,width:800,height:600,physics:{default:"arcade",arcade:{gravity:{y:200}}},scene:[r.default,t.default,a.default]},l=new e.default.Game(n);exports.default=l;
 },{"regenerator-runtime/runtime":"QVnC","phaser":"E66h","./scenes/HelloWorldScene":"Ymv7","./scenes/MenuScene":"aKKx","./scenes/PlayScene":"ojGF"}]},{},["ZCfc"], null)
-//# sourceMappingURL=/main.8bd6505e.js.map
+//# sourceMappingURL=main.8bd6505e.js.map
